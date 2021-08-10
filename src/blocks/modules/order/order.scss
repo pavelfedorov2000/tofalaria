@@ -1,0 +1,26 @@
+.order {
+
+    width: 68.8rem;
+    margin: 0 auto;
+    @extend %flex-col-center;
+
+    @media(max-width: 767px) {
+        width: 100%;
+    }
+
+    // .order__text
+
+    &__text {
+        @extend %text-23;
+        text-align: center;
+        margin-top: 5.1rem;
+
+        @media(max-width: 1024px) {
+            margin-top: 6.3rem;
+        }
+
+        @media(max-width: 767px) {
+            margin-top: 2.8rem;
+        }
+    }
+}

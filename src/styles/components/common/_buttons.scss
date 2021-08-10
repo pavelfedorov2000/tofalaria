@@ -1,0 +1,33 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    height: 6rem;
+    padding: 0 3rem;
+    background-color: $red;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @extend %bebas-bold;
+    font-size: 3rem;
+    line-height: 30/30 * 100%;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s background-color;
+
+    @media(max-width: 767px) {
+        border-radius: 2rem;
+        height: 4rem;
+        font-size: 1.9rem;
+    }
+
+    &:hover {
+        background-color: #FF5050;
+    }
+
+    &:active {
+        background-color: #BB5050;
+    }
+}

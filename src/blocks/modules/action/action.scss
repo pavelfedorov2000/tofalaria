@@ -1,0 +1,22 @@
+.action {
+    @extend %flex-col-center;
+
+    &__text {
+        @extend %text-23;
+        font-weight: 700;
+        max-width: 78rem;
+        text-align: center;
+
+        @media(max-width: 1024px) {
+            max-width: 44.8rem;
+        }
+    }
+
+    * {
+        margin: 2.5rem 0;
+
+        @media(max-width: 1024px) {
+            margin: 2rem 0;
+        }
+    }
+}

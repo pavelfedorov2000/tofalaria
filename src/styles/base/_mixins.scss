@@ -1,0 +1,22 @@
+@mixin round($size, $bg) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-color: $bg;
+}
+
+@mixin decor-title($width, $height) {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: $height;
+}
+
+@mixin counter($fz, $lh) {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    color: $pink;
+    letter-spacing: 0.035em;
+    font-size: $fz;
+    line-height: $lh;
+}

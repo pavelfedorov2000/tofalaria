@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('../fonts/BebasNeueBold.eot') format('embedded-opentype'),
+        url('../fonts/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/BebasNeueBold.woff') format('woff'),
+        /* url('fonts/BebasNeueBold.ttf') format('truetype'), */
+        url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('../ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../ProximaNova-Bold.woff') format('woff'),
+        url('../ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+
+/* @font-face {
+    font-family: 'Proxima Nova ExCn Rg';
+    src: url('ProximaNovaExCn-Bold.eot');
+    src: local('Proxima Nova Extra Condensed Bold'), local('ProximaNovaExCn-Bold'),
+        url('ProximaNovaExCn-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNovaExCn-Bold.woff') format('woff'),
+        url('ProximaNovaExCn-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn Rg';
+    src: url('ProximaNovaCond-Bold.eot');
+    src: local('Proxima Nova Condensed Bold'), local('ProximaNovaCond-Bold'),
+        url('ProximaNovaCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNovaCond-Bold.woff') format('woff'),
+        url('ProximaNovaCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+} */

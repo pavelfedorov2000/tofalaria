@@ -1,0 +1,166 @@
+.aroma {
+
+    padding: 5.5rem 0 5.7rem;
+    background-color: $light-green;
+
+    @media(max-width: 1024px) {
+        padding: 9.6rem 0 4rem;
+    }
+
+    @media(max-width: 767px) {
+        padding: 7.1rem 0 3.6rem;
+    }
+
+    // .aroma__container
+
+    &__container {
+        max-width: 119rem;
+
+        @media(max-width: 1024px) {
+            max-width: 70rem;
+        }
+    }
+
+    &__inner {
+        @extend %vertical-align;
+
+        @media(max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    // .aroma__content
+
+    &__content {
+        flex: 0 0 56.9rem;
+        @extend %flex-col-center;
+        text-align: center;
+
+        @media(max-width: 1024px) {
+            flex: 1 1 35.8rem;
+            //padding-top: 1.3rem;
+        }
+
+        @media(max-width: 767px) {
+            flex: auto;
+        }
+    }
+
+    // .aroma__title
+
+    &__title {
+        margin-bottom: 3.5rem;
+
+        @media(max-width: 1024px) {
+            margin-bottom: 5.3rem;
+        }
+
+        @media(max-width: 767px) {
+            margin-bottom: 1.9rem;
+        }
+
+        @media(max-width: 479px) {
+            margin-bottom: 1rem;
+        }
+
+        &:before {
+            width: 42.8rem;
+            top: -1.9rem;
+            left: -4rem;
+
+            @media(max-width: 1024px) {
+                width: 36.1rem;
+                height: 3.5rem;
+                left: 0;
+                top: -1.7rem;
+            }
+
+            @media(max-width: 767px) {
+                width: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -1.4rem;
+                //height: 3rem;
+            }
+
+            @media(max-width: 479px) {
+                top: -0.3rem;
+            }
+        }
+    }
+
+    // .aroma__subtitle
+
+    &__subtitle {
+        @extend %bebas-bold;
+        font-size: 8rem;
+        line-height: 95/80 * 100%;
+        letter-spacing: 0.085em;
+        color: $red;
+        margin-bottom: 2.1rem;
+
+        @media(max-width: 1024px) {
+            font-size: 6rem;
+            line-height: 71/60 * 100%;
+            margin-bottom: 3.7rem;
+        }
+
+        @media(max-width: 767px) {
+            font-size: 5rem;
+            line-height: 60/50 * 100%;
+            letter-spacing: 0.095em;
+            margin-bottom: 1rem;
+        }
+    }
+
+    // .aroma__subtitle-descr
+
+    &__subtitle-descr {
+        @extend %text-23;
+        font-weight: 700;
+        margin-bottom: 2.8rem;
+
+        @media(max-width: 1024px) {
+            max-width: 25rem;
+            margin-bottom: 3.7rem;
+        }
+
+        @media(max-width: 767px) {
+            max-width: 100%;
+            margin-bottom: 2.6rem;
+        }
+    }
+
+    // .aroma__text
+
+    &__text {
+        max-width: 45.2rem;
+        @extend %text-23;
+
+        @media(max-width: 1024px) {
+            max-width: 100%;
+            align-self: flex-start;
+            text-align: left;
+        }
+
+        @media(max-width: 767px) {
+            display: none;
+        }
+    }
+
+    // .aroma__img
+
+    &__img {
+        flex: 1 1 auto;
+        margin-left: 5.7rem;
+
+        @media(max-width: 1024px) {
+            flex: 1 1 32.8rem;
+            margin-left: 0;
+        }
+
+        @media(max-width: 767px) {
+            flex: auto;
+        }
+    }
+}

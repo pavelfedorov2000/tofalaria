@@ -1,0 +1,34 @@
+@import './vars';
+@import './mixins';
+@import './fonts';
+@import './null';
+
+._container {
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* ol.counter {
+    counter-reset: counter;
+
+    li {
+        position: relative;
+
+        &:before {
+            content: counter(counter);
+            counter-increment: counter;
+            position: absolute;
+        }
+    }
+} */
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
